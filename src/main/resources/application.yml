@@ -1,9 +1,27 @@
-# 基本语法
+#debug: false
+#logging:
+#  level:
+#    com:
+#      zhangxing: debug
+#  # file: springboot_zx.log
+#  path: /springLogging/log
+## 基本语法
 #server:
 #  port: 8081
+#  context-path: /autoConfig
+##spring:
+##  profiles:
+##    active: dev
+#
+#spring:
+#  http:
+#    encoding:
+#      charset: utf-8
+#      force: true
+#      enabled: true
 #
 #person:
-#    lastName: zx
+#    last-name: zx
 #    age: 23
 #    boss: false
 #    birth: 2020/02/02
@@ -15,3 +33,20 @@
 #    dog:
 #      name: yz
 #      age: 2
+#
+#---
+#server:
+#  port: 8085
+#spring:
+#  profiles: dev
+## 激活指定profile的3种方式
+## 1：配置文件中指定spring.profiles.active
+## 2：命令行 java -jar spring-boot-01-quick-0.0.1-SNAPSHOT.jar --spring.profiles.active=pro
+## 3：启动时，修改Program arguments的参数
+## 4：启动时，修改虚拟机参数
+#
+#---
+#server:
+#  port: 8086
+#spring:
+#  profiles: pro

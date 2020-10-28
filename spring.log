@@ -1,0 +1,21 @@
+2020-10-28 15:13:41.717  INFO 13952 --- [main] c.z.s.SpringBoot01QuickApplicationTest   : Starting SpringBoot01QuickApplicationTest on DESKTOP-31I5A7F with PID 13952 (started by zhangxing in D:\Study\IDEA\Project\SpringBoot-Study\spring-boot-01-quick-2)
+2020-10-28 15:13:41.718 DEBUG 13952 --- [main] c.z.s.SpringBoot01QuickApplicationTest   : Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2020-10-28 15:13:41.718  INFO 13952 --- [main] c.z.s.SpringBoot01QuickApplicationTest   : No active profile set, falling back to default profiles: default
+2020-10-28 15:13:41.753  INFO 13952 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3646a422: startup date [Wed Oct 28 15:13:41 CST 2020]; root of context hierarchy
+2020-10-28 15:13:42.293  INFO 13952 --- [main] o.s.b.f.xml.XmlBeanDefinitionReader      : Loading XML bean definitions from class path resource [beans.xml]
+2020-10-28 15:13:43.299  INFO 13952 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3646a422: startup date [Wed Oct 28 15:13:41 CST 2020]; root of context hierarchy
+2020-10-28 15:13:43.376  INFO 13952 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/context]}" onto public java.lang.String com.zhangxing.springboot01quick.Controller.ContextController.context()
+2020-10-28 15:13:43.377  INFO 13952 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/sayHello]}" onto public java.lang.String com.zhangxing.springboot01quick.Controller.HelloController.sayHello()
+2020-10-28 15:13:43.378  INFO 13952 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.zhangxing.springboot01quick.Controller.HelloController.hello()
+2020-10-28 15:13:43.383  INFO 13952 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-10-28 15:13:43.383  INFO 13952 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-10-28 15:13:43.416  INFO 13952 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-10-28 15:13:43.417  INFO 13952 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-10-28 15:13:43.474  INFO 13952 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-10-28 15:13:43.698  INFO 13952 --- [main] c.z.s.SpringBoot01QuickApplicationTest   : Started SpringBoot01QuickApplicationTest in 2.388 seconds (JVM running for 3.029)
+2020-10-28 15:13:43.735 DEBUG 13952 --- [main] c.z.s.SpringBoot01QuickApplicationTest   : Debug日志
+2020-10-28 15:13:43.735  INFO 13952 --- [main] c.z.s.SpringBoot01QuickApplicationTest   : info日志
+2020-10-28 15:13:43.735  WARN 13952 --- [main] c.z.s.SpringBoot01QuickApplicationTest   : warn
+2020-10-28 15:13:43.735  WARN 13952 --- [main] c.z.s.SpringBoot01QuickApplicationTest   : Person{lastName='c95ff024e7ead9b09d213063e69a2f95', age=200, boss=null, birth=null, maps=null, lists=null, dog=null}
+2020-10-28 15:13:43.735 ERROR 13952 --- [main] c.z.s.SpringBoot01QuickApplicationTest   : 出错啦！
+2020-10-28 15:13:43.738  INFO 13952 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@3646a422: startup date [Wed Oct 28 15:13:41 CST 2020]; root of context hierarchy

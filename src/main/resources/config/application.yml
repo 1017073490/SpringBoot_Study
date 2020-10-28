@@ -1,0 +1,23 @@
+# 基本语法
+server:
+  port: 8082
+#spring:
+#  profiles:
+#    active: dev
+
+---
+server:
+  port: 8085
+spring:
+  profiles: dev
+# 激活指定profile的3种方式
+# 1：配置文件中指定spring.profiles.active
+# 2：命令行 java -jar spring-boot-01-quick-0.0.1-SNAPSHOT.jar --spring.profiles.active=pro
+# 3：启动时，修改Program arguments的参数
+# 4：启动时，修改虚拟机参数
+
+---
+server:
+  port: 8086
+spring:
+  profiles: pro

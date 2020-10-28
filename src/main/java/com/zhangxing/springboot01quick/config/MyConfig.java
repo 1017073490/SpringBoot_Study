@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
  * @date 2020/10/27 21:30
  */
 /*
- * 指明当前类是配置类，用于代替之前的Spring配置文件
+ * @Configuration指明当前类是配置类，用于代替之前的Spring配置文件
  * 在之前的配置文件中，采用<bean>标签配置组件
  * 而配置类中，使用@Bean
  * */

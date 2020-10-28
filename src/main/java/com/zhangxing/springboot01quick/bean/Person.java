@@ -29,12 +29,12 @@ import java.util.Map;
 * 如果专门编写一个JavaBean与配置文件进行映射，我们直接使用@ConfigurationProperties
 * 如果只是在业务逻辑中需要获取一下配置文件中的某项值，就使用@Value
 * */
-@ConfigurationProperties(prefix = "person")
+//@ConfigurationProperties(prefix = "person")
 //@Validated
 public class Person {
-    //@Value("${person.last-name}")
+    @Value("${random.value}")
     private String lastName;
-    //@Value("#{10*20}")
+    @Value("#{10*20}")
     //@Email
     private Integer age;
     private Boolean boss;
